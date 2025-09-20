@@ -77,7 +77,7 @@ const WhyUs = () => {
     <div className="text-center animate-fadeInUp animate-delay-800 mb-10">
       <div className="inline-block">
         <img 
-          src="/images/sanjivani-mahadik.jpg" 
+          src="../images/sanjivani-mahadik.jpg" 
           alt="Sanjivani Mahadik" 
           className="w-28 h-28 md:w-32 md:h-32 rounded-full mx-auto mb-4 object-cover shadow-lg"
         />

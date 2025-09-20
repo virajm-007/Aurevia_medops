@@ -19,6 +19,8 @@ const Hero = () => {
   return (
     <section className="bg-gradient-to-br from-blue-50 to-green-50 pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden relative">
       <div className="max-w-7xl mx-auto relative z-10">
+      
+
         <div className="text-center">
           {/* Heading */}
           <div className="mb-8 animate-fadeInUp">
@@ -34,7 +36,14 @@ const Hero = () => {
               patient experiences — all while boosting profitability.
             </p>
           </div>
-
+ {/* Logo */}
+        <div className="flex justify-center mb-8 animate-fadeInUp">
+          <img
+            src="/images/logo.png" // Make sure logo is in public/images/
+            alt="Aurevia MedOps Logo"
+            className="w-36 h-auto object-contain"
+          />
+        </div>
           {/* Contact Info Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12 animate-fadeInUp animate-delay-300 relative z-[9999]">
             {/* Call Dropdown */}
@@ -50,16 +59,20 @@ const Hero = () => {
               {showNumbers && (
                 <div className="absolute mt-2 left-0 right-0 bg-white shadow-2xl rounded-xl p-3 space-y-2 z-[9999] w-60 mx-auto">
                   <button
-                    onClick={() => (window.location.href = "tel:+918459573193")}
+                    onClick={() =>
+                      (window.location.href = "tel:+918459573193")
+                    }
                     className="block w-full text-left px-4 py-2 text-gray-800 hover:bg-blue-50 rounded-lg"
                   >
                     +91 84595 73193
                   </button>
                   <button
-                    onClick={() => (window.location.href = "tel:+919876543210")}
+                    onClick={() =>
+                      (window.location.href = "tel:+919265119312")
+                    }
                     className="block w-full text-left px-4 py-2 text-gray-800 hover:bg-blue-50 rounded-lg"
                   >
-                    +91 98765 43210
+                    +91 92651 19312
                   </button>
                 </div>
               )}
