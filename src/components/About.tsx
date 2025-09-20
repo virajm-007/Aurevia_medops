@@ -23,10 +23,10 @@ const About = () => {
           {/* Left Column - Content */}
           <div className="animate-fadeInLeft">
             <div className="mb-8 animate-fadeInUp animate-delay-200">
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              {/* <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Founded by <span className="font-semibold text-blue-800 font-heading">Sanjivani Mahadik</span>, 
                 Aurevia MedOps was built with one clear mission —
-              </p>
+              </p> */}
               <blockquote className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-600 mb-6 italic font-heading animate-pulse-custom">
                 "To make healthcare operations seamless, patient-friendly, and future-ready."
               </blockquote>
@@ -70,10 +70,7 @@ const About = () => {
                 alt="Healthcare consultation"
                 className="w-full h-80 object-cover rounded-xl shadow-lg hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute -top-4 -left-4 bg-white px-6 py-3 rounded-full shadow-lg animate-pulse-custom">
-                <p className="font-semibold text-blue-800 font-heading">Founded by</p>
-                <p className="text-green-600 font-bold font-heading">Sanjivani Mahadik</p>
-              </div>
+            
             </div>
           </div>
         </div>

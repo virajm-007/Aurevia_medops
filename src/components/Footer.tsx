@@ -15,11 +15,11 @@ const Footer = () => {
           
           <div className="mb-6 animate-fadeInUp animate-delay-300">
             <p className="text-gray-300 mb-2">Your Partner in Healthcare Excellence</p>
-            <div className="flex items-center justify-center">
+            {/* <div className="flex items-center justify-center">
               <span className="text-gray-400">Made with</span>
               <Heart className="w-4 h-4 text-red-500 mx-2 fill-current animate-pulse-custom" />
               <span className="text-gray-400">for better healthcare</span>
-            </div>
+            </div> */}
           </div>
           
           <div className="border-t border-gray-700 pt-6 animate-fadeInUp animate-delay-400">

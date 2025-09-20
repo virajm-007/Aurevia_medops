@@ -58,30 +58,51 @@ const WhyUs = () => {
           ))}
         </div>
 
-        {/* Founder's Message */}
-        <div className="mt-20 bg-gradient-to-r from-blue-50 to-green-50 rounded-3xl p-8 md:p-12 animate-fadeInUp animate-delay-500 hover:shadow-xl transition-shadow duration-500">
-          <div className="text-center mb-8 animate-fadeInUp animate-delay-600">
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 font-heading">
-              Our Founder's Message
-            </h3>
-          </div>
-          
-          <div className="max-w-4xl mx-auto animate-fadeInUp animate-delay-700">
-            <blockquote className="text-xl md:text-2xl text-gray-800 italic text-center leading-relaxed mb-8 font-heading">
-              "I believe healthcare management should be stress-free for doctors and seamless for patients. 
-              At Aurevia MedOps, we ensure that every process — from registration to discharge — works efficiently, 
-              so your doctors can focus on what matters most: saving lives."
-            </blockquote>
-            
-            <div className="text-center animate-fadeInUp animate-delay-800">
-              <div className="inline-block">
-                <p className="font-bold text-xl text-blue-800 font-heading">— Sanjivani Mahadik</p>
-                <p className="text-green-600 font-semibold font-heading">Founder & Operations Consultant</p>
-                <p className="text-gray-600">Aurevia MedOps</p>
-              </div>
-            </div>
-          </div>
-        </div>
+  {/* Founder's Message */}
+<div className="mt-20 bg-gradient-to-r from-blue-50 to-green-50 rounded-3xl p-8 md:p-12 animate-fadeInUp animate-delay-500 hover:shadow-xl transition-shadow duration-500">
+  <div className="text-center mb-8 animate-fadeInUp animate-delay-600">
+    <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 font-heading">
+      Message
+    </h3>
+  </div>
+  
+  <div className="max-w-4xl mx-auto animate-fadeInUp animate-delay-700">
+    <blockquote className="text-xl md:text-2xl text-gray-800 italic text-center leading-relaxed mb-8 font-heading">
+      "I believe healthcare management should be stress-free for doctors and seamless for patients. 
+      At Aurevia MedOps, we ensure that every process — from registration to discharge — works efficiently, 
+      so your doctors can focus on what matters most: saving lives."
+    </blockquote>
+    
+    {/* Founder Section */}
+    <div className="text-center animate-fadeInUp animate-delay-800 mb-10">
+      <div className="inline-block">
+        <img 
+          src="/images/sanjivani-mahadik.jpg" 
+          alt="Sanjivani Mahadik" 
+          className="w-28 h-28 md:w-32 md:h-32 rounded-full mx-auto mb-4 object-cover shadow-lg"
+        />
+        <p className="font-bold text-xl text-blue-800 font-heading">— Sanjivani Mahadik</p>
+        <p className="text-green-600 font-semibold font-heading">Founder</p>
+        <p className="text-gray-600">Aurevia MedOps</p>
+      </div>
+    </div>
+
+    {/* Director Section */}
+    <div className="text-center animate-fadeInUp animate-delay-900">
+      <div className="inline-block">
+        <img 
+          src="../images/smit-kachhiya.jpg" 
+          alt="Smit Kachhiya" 
+          className="w-28 h-28 md:w-32 md:h-32 rounded-full mx-auto mb-4 object-cover shadow-lg"
+        />
+        <p className="font-bold text-xl text-blue-800 font-heading">— Smit Kachhiya</p>
+        <p className="text-green-600 font-semibold font-heading">Director</p>
+        <p className="text-gray-600">Aurevia MedOps</p>
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
     </section>
   );

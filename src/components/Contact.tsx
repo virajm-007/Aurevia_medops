@@ -40,53 +40,71 @@ const Contact = () => {
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Information */}
-          <div className="space-y-8 animate-fadeInLeft">
-            <div className="animate-fadeInUp animate-delay-300">
-              <h3 className="text-2xl font-bold text-gray-900 mb-8 font-heading">Get In Touch</h3>
-              
-              <div className="space-y-6">
-                <a 
-                  href="tel:8459573193"
-                  className="flex items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 animate-fadeInLeft animate-delay-400 hover:scale-105"
-                >
-                  <div className="w-14 h-14 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mr-6 animate-pulse-custom">
-                    <Phone className="w-7 h-7 text-white" />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-900 font-heading">Call/WhatsApp</p>
-                    <p className="text-blue-600 text-lg font-bold font-heading">8459573193</p>
-                  </div>
-                </a>
+       {/* Contact Information */}
+<div className="space-y-8 animate-fadeInLeft">
+  <div className="animate-fadeInUp animate-delay-300">
+    <h3 className="text-2xl font-bold text-gray-900 mb-8 font-heading">Get In Touch</h3>
+    
+    <div className="space-y-6">
+      {/* First Phone Number */}
+      <a 
+        href="tel:8459573193"
+        className="flex items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 animate-fadeInLeft animate-delay-400 hover:scale-105"
+      >
+        <div className="w-14 h-14 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mr-6 animate-pulse-custom">
+          <Phone className="w-7 h-7 text-white" />
+        </div>
+        <div>
+          <p className="font-semibold text-gray-900 font-heading">Call/WhatsApp</p>
+          <p className="text-blue-600 text-lg font-bold font-heading">8459573193</p>
+        </div>
+      </a>
 
-                <a 
-                  href="mailto:sanjivanimahadik99@gmail.com"
-                  className="flex items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 animate-fadeInLeft animate-delay-500 hover:scale-105"
-                >
-                  <div className="w-14 h-14 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center mr-6 animate-pulse-custom">
-                    <Mail className="w-7 h-7 text-white" />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-900 font-heading">Email</p>
-                    <p className="text-green-600 text-lg font-bold font-heading">sanjivanimahadik99@gmail.com</p>
-                  </div>
-                </a>
-              </div>
-            </div>
+      {/* Second Phone Number */}
+      <a 
+        href="tel:9265119312"
+        className="flex items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 animate-fadeInLeft animate-delay-450 hover:scale-105"
+      >
+        <div className="w-14 h-14 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mr-6 animate-pulse-custom">
+          <Phone className="w-7 h-7 text-white" />
+        </div>
+        <div>
+          <p className="font-semibold text-gray-900 font-heading">Call/WhatsApp</p>
+          <p className="text-blue-600 text-lg font-bold font-heading">9265119312</p>
+        </div>
+      </a>
 
-            {/* CTA Card */}
-            <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-2xl animate-fadeInLeft animate-delay-600 hover:shadow-2xl transition-shadow duration-300 animate-glow">
-              <div className="flex items-center mb-4">
-                <div className="w-3 h-3 bg-white rounded-full mr-3 animate-pulse"></div>
-                <h4 className="text-xl font-bold font-heading">Free Consultation Available</h4>
-              </div>
-              <p className="text-red-100 mb-4">
-                Schedule your complimentary consultation today and discover how we can transform your healthcare operations.
-              </p>
-              <p className="font-bold text-lg font-heading">
-                Aurevia MedOps — Your Partner in Healthcare Excellence
-              </p>
-            </div>
-          </div>
+      {/* Email */}
+      <a 
+        href="mailto:aureviamedops@gmail.com"
+        className="flex items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 animate-fadeInLeft animate-delay-500 hover:scale-105"
+      >
+        <div className="w-14 h-14 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center mr-6 animate-pulse-custom">
+          <Mail className="w-7 h-7 text-white" />
+        </div>
+        <div>
+          <p className="font-semibold text-gray-900 font-heading">Email</p>
+          <p className="text-green-600 text-lg font-bold font-heading">aureviamedops@gmail.com</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  {/* CTA Card */}
+  <div className="bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-2xl animate-fadeInLeft animate-delay-600 hover:shadow-2xl transition-shadow duration-300 animate-glow">
+    <div className="flex items-center mb-4">
+      <div className="w-3 h-3 bg-white rounded-full mr-3 animate-pulse"></div>
+      <h4 className="text-xl font-bold font-heading">Free Consultation Available</h4>
+    </div>
+    <p className="text-red-100 mb-4">
+      Schedule your complimentary consultation today and discover how we can transform your healthcare operations.
+    </p>
+    <p className="font-bold text-lg font-heading">
+      Aurevia MedOps — Your Partner in Healthcare Excellence
+    </p>
+  </div>
+</div>
+
 
           {/* Contact Form */}
           <div className="bg-white rounded-2xl shadow-xl p-8 animate-fadeInRight">
